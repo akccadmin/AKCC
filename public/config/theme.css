@@ -2,7 +2,7 @@
   --primary: white;
   --primary-text: #1a1a1a;
   --secondary: #ff1dec;
-  --secondary-text: #ffffff;
+  --secondary-text: white;
   --accent: #505050;
-  --accent-text: #ffffff;
+  --accent-text:  black;
 }
