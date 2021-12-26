@@ -52,25 +52,45 @@ export const Container = styled.div`
 
 export const TextTitle = styled.p`
   color: var(--primary-text);
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 1.6;
+  text-shadow: 1px 1px 2px #000000;
 `;
 
 export const TextSubTitle = styled.p`
   color: var(--primary-text);
-  font-size: 18px;
+  font-size: 35px;
   line-height: 1.6;
+  text-shadow: 1px 1px 2px #000000;
 `;
 
 export const TextDescription = styled.p`
   color: var(--primary-text);
-  font-size: 16px;
+  font-size: 30px;
   line-height: 1.6;
+  text-shadow: 1px 1px 2px #000000;
 `;
 
 export const StyledClickable = styled.div`
   :active {
     opacity: 0.6;
   }
+`;
+/*export const navbartext = styled.a`
+      margin-left: 20px;
+    cursor: pointer;
+    font-size: 24px!important;
+    color: #fff!important;
+    text-shadow: #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px;
+`*/
+
+export const Nav = styled.nav`
+display: flex;
+align-items: center;
+justify-content:space-around;
+margin: 40px;
+font-size: 24px!important;
+    color: #fff!important;
+    text-shadow: #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px;
 `;
