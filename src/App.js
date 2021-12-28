@@ -199,7 +199,6 @@ function App() {
     <s.Screen
     image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
     >
-      
       {/*<s.Nav>
         <a hred="#">HOME</a>
         <a hred="#">ABOUT</a>
@@ -286,8 +285,6 @@ function App() {
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
-                    
-                    {/*
                     <StyledButton
                       onClick={(e) => {
                         e.preventDefault();
@@ -297,7 +294,6 @@ function App() {
                     >
                       CONNECT
                     </StyledButton>
-                    */}
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
