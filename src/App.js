@@ -285,6 +285,7 @@ function App() {
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
+                    {/*
                     <StyledButton
                       onClick={(e) => {
                         e.preventDefault();
@@ -294,6 +295,7 @@ function App() {
                     >
                       CONNECT
                     </StyledButton>
+                    */}
                     {blockchain.errorMsg !== "" ? (
                       <>
                         <s.SpacerSmall />
