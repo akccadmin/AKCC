@@ -5,6 +5,7 @@ import { fetchData } from "./redux/data/dataActions";
 import * as s from "./styles/globalStyles";
 import styled from "styled-components";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Countdown from 'react-countdown';
 const truncate = (input, len) =>
   input.length > len ? `${input.substring(0, len)}...` : input;
 
@@ -198,6 +199,7 @@ function App() {
     <s.Screen
     image={CONFIG.SHOW_BACKGROUND ? "/config/images/bg.png" : null}
     >
+      
       {/*<s.Nav>
         <a hred="#">HOME</a>
         <a hred="#">ABOUT</a>
@@ -284,6 +286,7 @@ function App() {
                       Connect to the {CONFIG.NETWORK.NAME} network
                     </s.TextDescription>
                     <s.SpacerSmall />
+                    
                     {/*
                     <StyledButton
                       onClick={(e) => {
