@@ -219,6 +219,7 @@ function App() {
             jc={"center"}
             ai={"center"}
           >
+            {/*
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -229,6 +230,7 @@ function App() {
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
+            */}
             <s.TextDescription
               style={{
                 textAlign: "center",
@@ -241,6 +243,7 @@ function App() {
               </StyledLink>
             </s.TextDescription>
             <s.SpacerSmall />
+            
             {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
               <>
                 <s.TextTitle
@@ -260,6 +263,7 @@ function App() {
               </>
             ) : (
               <>
+            
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--primary-text)" }}
                 >
