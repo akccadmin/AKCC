@@ -238,9 +238,11 @@ function App() {
                 
               }}
             >
+              {/*
               <StyledLink target={"_blank"} href={CONFIG.SCAN_LINK}>
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
+              */}
             </s.TextDescription>
             <s.SpacerSmall />
             
