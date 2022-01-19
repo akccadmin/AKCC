@@ -10,7 +10,7 @@
   "SYMBOL": "AKCC",
   "MAX_SUPPLY": 5555,
   "WEI_COST": 30000000000000000,
-  "DISPLAY_COST": 0.03,
+  "DISPLAY_COST": 0,
   "GAS_LIMIT": 200000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/akccofficial",
