@@ -219,7 +219,7 @@ function App() {
             jc={"center"}
             ai={"center"}
           >
-            
+            {/*
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -230,7 +230,7 @@ function App() {
             >
               {data.totalSupply} / {CONFIG.MAX_SUPPLY}
             </s.TextTitle>
-            
+            */}
             <s.TextDescription
               style={{
                 textAlign: "center",
